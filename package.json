@@ -1,0 +1,16 @@
+{
+  "name": "youtube-clone-mern",
+  "version": "1.0.0",
+  "description": "Full-stack YouTube clone built with the MERN stack (MongoDB, Express, React, Node.js)",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.5"
+  }
+}
