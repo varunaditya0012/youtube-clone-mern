@@ -1,0 +1,48 @@
+{
+  "short_name": "YouTube",
+  "name": "YouTube - Broadcast Yourself",
+  "description": "Watch, upload and explore trending videos on YouTube Clone.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f0f0f",
+  "theme_color": "#ff0000",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Subscriptions",
+      "url": "/subscriptions",
+      "description": "Check subscribed channels"
+    },
+    {
+      "name": "History",
+      "url": "/history",
+      "description": "View watch history"
+    },
+    {
+      "name": "Liked Videos",
+      "url": "/liked",
+      "description": "View liked videos"
+    }
+  ]
+}
