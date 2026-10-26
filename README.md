@@ -2,6 +2,13 @@
 
 A full-stack, responsive YouTube Clone built with **MongoDB, Express.js, React, and Node.js**, featuring video streaming, JWT authentication, video management, channel subscriptions, social interactions, search, and a personalized recommendation engine.
 
+### 🌐 Live Permanent Website (24/7):
+👉 **[https://varunaditya0012.github.io/youtube-clone-mern/](https://varunaditya0012.github.io/youtube-clone-mern/)**
+
+- **Live Demo & PWA**: Accessible from any phone, tablet, or desktop worldwide.
+- **Installable Native App**: Standalone PWA installation with desktop shortcut and mobile home screen support.
+- **Repository**: [https://github.com/varunaditya0012/youtube-clone-mern](https://github.com/varunaditya0012/youtube-clone-mern)
+
 ---
 
 ## 🚀 Key Features
